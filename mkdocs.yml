@@ -28,8 +28,7 @@ theme:
       accent: lime
 
 plugins:
-    - search: {}
-    - encryptcontent: {}      
+    - search: {}    
     
 extra:
   social:
