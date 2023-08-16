@@ -1,4 +1,4 @@
-site_name: MkDocs Template
+site_name: MkDocs CWTS Template
 site_url: https://andrebrasil.github.io/mkdocs/
 theme:
   name: material
@@ -13,28 +13,41 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
+  logo: assets/cwts_logo_white_alone.png
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/weather-night 
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
+      primary: indigo
+      accent: indigo 
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: indigo
+      accent: indigo
 
 nav:
 - Home: index.md
-- Notebook page: notebook.ipynb
-- Python file: test.py
+- Notebook page: demo-nb.ipynb
+- Python file: demo-script.py
+- MD Example: demo-md.md
+- Page 2: page2.md
 
 plugins:
     - search: {}    
+    - social
     - mkdocs-jupyter 
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Portuguese
+      link: /pt/
+      lang: pt-br    
     
 extra:
   social:
