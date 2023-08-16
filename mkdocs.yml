@@ -27,8 +27,14 @@ theme:
       primary: teal
       accent: lime
 
+nav:
+- Home: index.md
+- Notebook page: notebook.ipynb
+- Python file: python_script.py
+
 plugins:
     - search: {}    
+    - mkdocs-jupyter
     
 extra:
   social:
