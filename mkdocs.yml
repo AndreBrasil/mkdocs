@@ -34,7 +34,7 @@ nav:
 
 plugins:
     - search: {}    
-    - mkdocs-jupyter
+    - mkdocs-jupyter 
     
 extra:
   social:
