@@ -30,7 +30,7 @@ theme:
 nav:
 - Home: index.md
 - Notebook page: notebook.ipynb
-- Python file: python_script.py
+- Python file: test.py
 
 plugins:
     - search: {}    
